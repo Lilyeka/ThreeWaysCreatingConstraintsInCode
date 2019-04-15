@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
      
-        v1.backgroundColor = .cyan
+        v1.backgroundColor = UIColor(red: 1, green: 0.4, blue: 1, alpha: 1)
         v2.backgroundColor = UIColor(red: 0.5, green: 1, blue: 0, alpha: 1)
         v3.backgroundColor = UIColor(red: 1, green: 0, blue: 0, alpha: 1)
         self.view.addSubview(v1)
